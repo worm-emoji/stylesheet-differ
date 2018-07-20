@@ -5,7 +5,8 @@
   "repository": "git@github.com:lukemiles/stylesheet-differ.git",
   "author": "Luke Miles <luke@lukemil.es>",
   "scripts": {
-    "test": "jest lib/ --watch"
+    "test": "jest lib/",
+    "test-watch": "jest lib/ --watch"
   },
   "license": "GPL-3.0",
   "dependencies": {
