@@ -1,6 +1,6 @@
 {
   "name": "stylesheet-differ",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "repository": "git@github.com:lukemiles/stylesheet-differ.git",
   "author": "Luke Miles <luke@lukemil.es>",
