@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest lib/",
     "test-watch": "jest lib/ --watch",
-    "lint": "eslint lib/ --fix"
+    "lint": "eslint lib/ --fix",
+    "precommit": "lint-staged"
   },
   "license": "GPL-3.0",
   "dependencies": {
@@ -24,7 +25,8 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.13.0",
     "husky": "^0.14.3",
-    "jest": "^23.4.1"
+    "jest": "^23.4.1",
+    "lint-staged": "^7.2.0"
   },
   "lint-staged": {
     "*.js": [
