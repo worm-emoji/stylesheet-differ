@@ -1,12 +1,13 @@
 {
   "name": "stylesheet-differ",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "lib/index.js",
   "repository": "git@github.com:lukemiles/stylesheet-differ.git",
   "author": "Luke Miles <luke@lukemil.es>",
   "scripts": {
     "test": "jest lib/",
-    "test-watch": "jest lib/ --watch"
+    "test-watch": "jest lib/ --watch",
+    "lint": "eslint lib/ --fix"
   },
   "license": "GPL-3.0",
   "dependencies": {
@@ -17,6 +18,19 @@
     "lodash": "^4.17.10"
   },
   "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-import": "^0.13.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "husky": "^0.14.3",
     "jest": "^23.4.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
