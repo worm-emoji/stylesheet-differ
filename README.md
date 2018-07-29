@@ -8,7 +8,7 @@ It works on small and large stylesheets alike, and powers the diffing capabiliti
 
 Generally speaking, it's a wrapper on top of [cssobj](https://github.com/cssobj/cssobj) with some hacks to generate styles.
 
-Removed rules and attributes result in `attr: unset` as an output.
+Removed rules and attributes result in `attr: unset` in the output.
 
 ## Usage
 
