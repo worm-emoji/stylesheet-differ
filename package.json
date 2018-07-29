@@ -1,6 +1,6 @@
 {
   "name": "stylesheet-differ",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "main": "lib/index.js",
   "repository": "git@github.com:lukemiles/stylesheet-differ.git",
   "author": "Luke Miles <luke@lukemil.es>",
@@ -15,8 +15,7 @@
     "cssobj": "^1.3.6",
     "cssobj-converter": "^2.3.3",
     "cssobj-core": "^1.1.9",
-    "cssobj-plugin-gencss": "^2.0.7",
-    "lodash": "^4.17.10"
+    "cssobj-plugin-gencss": "^2.0.7"
   },
   "devDependencies": {
     "eslint": "^5.2.0",
