@@ -10,7 +10,7 @@
     "lint": "eslint lib/ --fix",
     "precommit": "lint-staged"
   },
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "cssobj": "^1.3.6",
     "cssobj-converter": "^2.3.3",
